@@ -8,7 +8,7 @@ namespace CalculatorService
 {
     public class Calculator
     {
-                public int Additional(int a, int b)
+        public int Additional(int a, int b)
         {
             return a + b;
         }
