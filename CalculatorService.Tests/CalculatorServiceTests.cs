@@ -25,15 +25,15 @@ namespace CalculatorService.Tests
             var calculator = new Calculator();
             Assert.That(calculator.Subtraction(10, 5) == 5);
         }
-        [Test]
 
+        [Test]
         public void MultiplicationMustReturnCorrectValue() 
         {  
             var calculator = new Calculator();
             Assert.That(calculator.Miltiplication(10, 3) == 30);
         }
-        [Test]
 
+        [Test]
         public void DivisionMustThrowException()
         {
             var calculator = new Calculator();
